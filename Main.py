@@ -35,7 +35,7 @@ with st.sidebar:
 if selected == 'Information':
     st.title('Information')
     st.write('Diabetes is a chronic metabolic disorder characterized by high blood sugar levels over a prolonged period. Early detection and prediction of diabetes are crucial for effective management and prevention of complications associated with the disease. Diab-Care with help of machine learning (ML) techniques offer promising solutions for early diagnosis and prediction of diabetes by analyzing various risk factors and patterns in patient data')
-    image = Image.open("C:\\Users\\AYUSH\\Desktop\\Daiba care\\imgaa (1).jpg")
+    image = Image.open("imgaa (1).jpg")
 
     # Display the image in the Streamlit app
     st.image(image,  use_column_width=False,width= 350)

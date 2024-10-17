@@ -112,3 +112,4 @@ if selected == 'Diabetes Prediction':
         except Exception as e:
             st.error(f"An error occurred during prediction: {e}")
 
+#Author Ayush & Uday
